@@ -1,4 +1,6 @@
 @import "_text1.scss";
+@import "_animations.scss";
+@import "media_queries.scss";
 
 html {
   margin: 0;
@@ -11,7 +13,7 @@ html {
   } */
 }
 
-.header-block{
+.header-parent{
   position: absolute;
   width: 100%;
   height: 100%;
