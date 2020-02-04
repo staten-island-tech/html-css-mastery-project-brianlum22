@@ -2,12 +2,16 @@
 @import "_animations.scss";
 @import "media_queries.scss";
 
+@include tablet{}
+@include laptop{}
+
 html {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+  background-color: black;
   /* @include desktop {
   font-size: 70%;
   } */
@@ -24,9 +28,9 @@ html {
   align-items:center;
   justify-content: center;
   margin: 0;
-  background-image: url(../media/sushi_1.jpg);
-  background-color: black;
+  background-image: url(../media/page1.jpg);
 }
+
 
 
 
