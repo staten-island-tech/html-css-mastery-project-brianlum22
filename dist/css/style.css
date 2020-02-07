@@ -29,7 +29,7 @@
 
 .title {
   font-family: 'Kaushan Script', cursive;
-  font-size: 50px;
+  font-size: 75px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -38,7 +38,7 @@
   font-family: 'Kaushan Script', cursive;
   font-size: 50px;
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .greeting {
@@ -327,8 +327,8 @@ html {
           justify-content: center;
   margin: 0;
   background-image: url(../media/page1.jpg);
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
-          clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  -webkit-clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
+          clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
 }
 
 .second-page {
@@ -351,13 +351,13 @@ html {
           justify-content: center;
   margin: 0;
   background-image: url(../media/restaurant.jpg);
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
-          clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  -webkit-clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
+          clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
 }
 
-.statement {
+.title {
   width: 50vw;
-  height: 99vw;
+  height: 10vw;
   background-position: top;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -373,5 +373,26 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
+}
+
+.statement {
+  width: 50vw;
+  height: 40vw;
+  background-position: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  background-color: gray;
 }
 /*# sourceMappingURL=style.css.map */

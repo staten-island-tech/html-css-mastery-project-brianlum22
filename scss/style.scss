@@ -28,7 +28,7 @@ html {
   justify-content: center;
   margin: 0;
   background-image: url(../media/page1.jpg);
-  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
 }
 
 .second-page{
@@ -42,12 +42,12 @@ html {
   justify-content: center;
   margin: 0;
   background-image: url(../media/restaurant.jpg);
-  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
 }
 
-.statement {
+.title {
   width: 50vw;
-  height: 99vw;
+  height: 10vw;
   background-position: top;
   display: flex;
   flex-direction: column;
@@ -55,6 +55,19 @@ html {
   justify-content: center;
   margin: 0;
 }
+
+.statement {
+  width: 50vw;
+  height: 40vw;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: gray;
+}
+
 
 
 
