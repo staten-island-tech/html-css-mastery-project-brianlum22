@@ -356,8 +356,9 @@ html {
 }
 
 .title {
-  width: 50vw;
-  height: 10vw;
+  position: absolute;
+  width: 99vw;
+  height: 20vw;
   background-position: top;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -396,21 +397,44 @@ html {
   margin: 0;
 }
 
+.food {
+  position: relative;
+}
+
+.menu {
+  height: 30rem;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .sushi {
-  width: 50vh;
-  height: 50vh;
-  background-image: url(../media/.sushijpg);
+  top: 25rem;
+  left: 0;
 }
 
 .udon {
-  width: 50vh;
-  height: 50vh;
-  background-image: url(../media/udon.jpg);
+  top: 25rem;
+  right: -40rem;
 }
 
 .sashimi {
-  width: 50vh;
-  height: 50vh;
-  background-image: url(../media/.sashimi.jpg);
+  top: 25rem;
+  right: -40rem;
+}
+
+.menu:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  outline: 1rem solid white;
+  z-index: 2;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.gallery:hover .menu:not(:hover) {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  opacity: 0.3;
 }
 /*# sourceMappingURL=style.css.map */
