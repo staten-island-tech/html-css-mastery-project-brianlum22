@@ -50,23 +50,42 @@ html {
   height: 10vw;
   background-position: top;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0;
 }
 
-.statement {
-  width: 50vw;
-  height: 40vw;
+.food {
+  width: 99vw;
+  height: 99vw;
+  background-size: cover;
   background-position: top;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0;
-  background-color: gray;
 }
+
+.sushi {
+  width: 50vh;
+  height: 50vh;
+  background-image: url(../media/.sushijpg);
+}
+
+.udon {
+  width: 50vh;
+  height: 50vh;
+  background-image: url(../media/udon.jpg);
+}
+
+.sashimi {
+  width: 50vh;
+  height: 50vh;
+  background-image: url(../media/.sashimi.jpg);
+}
+
 
 
 
