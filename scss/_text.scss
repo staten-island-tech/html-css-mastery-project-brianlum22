@@ -5,12 +5,6 @@
     color: white;    
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-transform: uppercase;
-    @include laptop{
-        font-size: 65px;
-    }
-    @include tablet{
-        font-size: 65px;
-    }
 }
 
 .motto{
@@ -18,12 +12,6 @@
     font-size: 50px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    @include laptop{
-        font-size: 25px;
-    }
-    @include laptop{
-        font-size: 25px;
-    }
 }
 
 .motto2{
@@ -31,12 +19,6 @@
     font-size: 50px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    @include laptop{
-        font-size: 25px;
-    }
-    @include laptop{
-        font-size: 25px;
-    }
 }
 
 .name{
@@ -44,12 +26,6 @@
     font-size: 25px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    @include laptop{
-        font-size: 12px;
-    }
-    @include laptop{
-        font-size: 12px;
-    }
 }
 
 .title {
@@ -57,12 +33,6 @@
     font-size: 75px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    @include laptop{
-        font-size: 37px;
-    }
-    @include laptop{
-        font-size: 37px;
-    }
 }
 
 .statement {
@@ -70,12 +40,6 @@
     font-size: 50px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    @include laptop{
-        font-size: 25px;
-    }
-    @include laptop{
-        font-size: 25px;
-    }
 }
 
 .food-title-child {
@@ -83,17 +47,11 @@
     font-size: 100px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
-    @include laptop{
-        font-size: 50px;
-    }
-    @include laptop{
-        font-size: 50px;
-    }
 }
 
-.food-names {
+.menu-title {
     font-family: 'Kaushan Script', cursive;
-    font-size: 25px;
+    font-size: 50px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
