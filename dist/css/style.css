@@ -55,6 +55,20 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.our-locations-child {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 100px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+}
+
+.cityname1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .user-gallery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -140,22 +154,9 @@
   }
 }
 
-html {
-  margin: 0;
-  padding: 0;
-  font-size: 62.5%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Josefin Sans", sans-serif;
-  background-color: black;
-  /* @include desktop {
-  font-size: 70%;
-  } */
-}
-
 .header-parent {
-  width: 100vw;
-  height: 100vh;
+  width: 99vw;
+  height: 99vh;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -173,13 +174,12 @@ html {
           justify-content: center;
   margin: 0;
   background-image: url(../media/page1.jpg);
-  -webkit-clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
-          clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
+  margin-bottom: 10vh;
 }
 
 .second-page {
-  width: 100vw;
-  height: 100vh;
+  width: 99vw;
+  height: 99vh;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -197,29 +197,7 @@ html {
           justify-content: center;
   margin: 0;
   background-image: url(../media/restaurant.jpg);
-  -webkit-clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
-          clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
-}
-
-.title {
-  position: absolute;
-  width: 99vw;
-  height: 20vw;
-  background-position: top;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0;
+  margin-bottom: 10vh;
 }
 
 .food {
@@ -318,24 +296,128 @@ html {
   position: relative;
 }
 
-.sushi-title {
+.third-page {
+  width: 99vw;
+  height: 99vh;
+  background-size: cover;
+  background-position: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  background-color: #6D4C41;
+  margin-bottom: 10vh;
+}
+
+.our-locations-parent {
+  height: 15rem;
+}
+
+.locations {
+  width: 99vw;
+  height: 25vw;
+  background-size: cover;
+  background-position: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  position: relative;
+}
+
+.sightsee {
+  height: 35rem;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+  -webkit-filter: grayscale(50);
+          filter: grayscale(50);
+}
+
+.akihabara {
   top: 20rem;
   left: 0;
   border-radius: 2;
   margin: 0;
 }
 
-.udon-title {
+.times_square {
   top: 20rem;
   right: -40rem;
   border-radius: 2;
   margin: 0;
 }
 
-.sashimi-title {
+.shanghai {
   top: 20rem;
   right: -40rem;
   border-radius: 2;
   margin: 0;
+}
+
+.sightsee:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 2;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.location-title {
+  height: 10rem;
+  background-size: cover;
+  background-position: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  position: relative;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: black;
+  /* @include desktop {
+  font-size: 70%;
+  } */
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,9 @@
 @import "_text.scss";
 @import "_usergallery.scss";
 @import "_variables.scss";
+@import "_firstcontent.scss";
+@import "_secondcontent.scss";
+@import "_thirdcontent.scss";
 
 @include tablet{}
 @include laptop{}
@@ -17,139 +20,8 @@ html {
   } */
 }
 
-.header-parent{
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: top;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  background-image: url(../media/page1.jpg);
-  clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
-}
 
-.second-page{
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: top;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  background-image: url(../media/restaurant.jpg);
-  clip-path: polygon(50% 10%, 100% 0, 100% 90%, 50% 100%, 0% 90%, 0 0);
-}
 
-.title {
-  position: absolute;
-  width: 99vw;
-  height: 20vw;
-  background-position: top;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-}
-
-.food {
-  width: 99vw;
-  height: 25vw;
-  background-size: cover;
-  background-position: top;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  position: relative;
-}
-
-.menu {
-  height: 35rem;
-  position: relative;
-  transition: all 0.3s;
-  padding: 2rem;
-  margin-top: 10rem;
-  margin-bottom: 20rem;
-  filter: grayscale(50);
-}
-
-.sushi {
-  top: 20rem;
-  left: 0;
-  border-radius: 2;
-  margin: 0;
-}
-
-.udon {
-  top: 20rem;
-  right: -40rem;
-  border-radius: 2;
-  margin: 0;
-}
-
-.sashimi {
-  top: 20rem;
-  right: -40rem;
-  border-radius: 2;
-  margin: 0;
-}
-.menu:hover {
-  transform: scale(1.1);
-  z-index: 2;
-  filter: grayscale(0);
-}
-
-.food-title-parent {
-  margin-top: 15rem;
-  height: 25rem;
-}
-
-.menu-items {
-  height: 35rem;
-  position: relative;
-  padding: 18rem;
-  margin-top: 5rem;
-}
-
-.menu-title {
-  height: 20rem;
-  background-size: cover;
-  background-position: top;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0;
-  position: relative;
-}
-
-.sushi-title{
-  top: 20rem;
-  left: 0;
-  border-radius: 2;
-  margin: 0;
-}
-
-.udon-title{
-  top: 20rem;
-  right: -40rem;
-  border-radius: 2;
-  margin: 0; 
-}
-
-.sashimi-title{
-  top: 20rem;
-  right: -40rem;
-  border-radius: 2;
-  margin: 0;
-}
 
 
 
