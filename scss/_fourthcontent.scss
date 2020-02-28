@@ -1,5 +1,5 @@
-.fourth-content{
-  width: 99vh;
+#fourth-content{
+  width: 99vw;
   height: 99vh;
   background-size: cover;
   background-position: top;
@@ -8,6 +8,30 @@
   align-items: center;
   justify-content: center;
   margin: 0;
-  margin-bottom: 10vh;
   background-image: url(../media/reviews.jpg);
+}
+
+.reviews-parent {
+  height: 15rem;
+}
+
+.reviews {
+
+}
+
+.reviews {
+  width: 25vw;
+  height: 99vw;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  position: relative;
+  padding: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
 }
