@@ -8,7 +8,8 @@
   align-items: center;
   justify-content: center;
   margin: 0;
-  background-image: url(../media/reviews.jpg);
+  background-image: url(../media/reviewing.jpg);
+  
 }
 
 .reviews-parent {
@@ -16,22 +17,34 @@
 }
 
 .reviews {
-
-}
-
-.reviews {
-  width: 25vw;
-  height: 99vw;
+  width: 80vw;
+  height: 50vh;
   background-size: cover;
   background-position: top;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin: 20rem;
   position: relative;
-  position: relative;
-  padding: 2rem;
-  margin-top: 10rem;
-  margin-bottom: 20rem;
+  background: rgba(0, 0, 0, 0.4);
 }
+
+.whalen-parent {
+  margin-right: 10rem;
+  height: 25rem;
+  z-index: 2;
+}
+
+.caroline-parent {
+  margin-left: 10rem;
+  height: 25rem;
+  z-index: 2;
+}
+
+.kenny-parent {
+  height: 25rem;
+  z-index: 2;
+}
+
+
