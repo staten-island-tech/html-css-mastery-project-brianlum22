@@ -5,13 +5,19 @@ $colors: (
   primary-dark: #1f2833,
   black: #0b0c10
 );
-$phone:600px;
+$phone: 600px;
 $tablet: 900px;
 $laptop: 1100px;
 $desktop: 1100px;
  
 @function color($color-name) {
   @return map-get($colors, $color-name);
+}
+
+@mixin phone {
+  @media (min-width: #{$phone}) {
+    @content;
+  }
 }
 
 @mixin tablet {

@@ -1,6 +1,7 @@
 .header-parent{
     width: 99vw;
     height: 99vh;
+    position: relative;
     background-size: cover;
     background-position: top;
     display: flex;
@@ -10,6 +11,21 @@
     margin: 0;
     background-image: url(../media/page1.jpg);
     margin-bottom: 10vh;
-  }
+    @include phone {
+
+    }
+    
+    @include tablet {
+      background-size: cover;
+    }
+    @include desktop {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+}
+
+  
   
   
