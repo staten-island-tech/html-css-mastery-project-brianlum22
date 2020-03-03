@@ -7,7 +7,7 @@
     text-transform: uppercase;
 
     @include phone{
-        font-size: 50px;
+        font-size: 50vw;
     }
 
     @include desktop {
