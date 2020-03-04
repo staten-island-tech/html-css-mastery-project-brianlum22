@@ -13,8 +13,6 @@
 }
   
   .food {
-    width: 99vw;
-    height: 25vw;
     background-size: cover;
     background-position: top;
     display: flex;
@@ -23,6 +21,11 @@
     justify-content: center;
     margin: 0;
     position: relative;
+
+    @include desktop {
+    width: 99vw;
+    height: 25vw;
+    }
   }
   
   .menu {

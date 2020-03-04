@@ -5,15 +5,15 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 600px) {
-  .greeting {
-    font-size: 50vw;
-  }
-}
-
 @media (min-width: 1100px) {
   .greeting {
     font-size: 130px;
+  }
+}
+
+@media (max-width: 600px) {
+  .greeting {
+    font-size: 3rem;
   }
 }
 
@@ -23,7 +23,7 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .motto {
     font-size: 3vh;
   }
@@ -41,7 +41,7 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .motto2 {
     font-size: 3vh;
   }
@@ -59,7 +59,7 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .name {
     font-size: 3vh;
   }
@@ -141,7 +141,7 @@
           align-items: center;
 }
 
-@media (min-width: 1100px) {
+@media (max-width: 1100px) {
   .user-gallery {
     height: 90vh;
   }
@@ -153,13 +153,13 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
   .user-gallery-header {
     font-size: 3rem;
   }
 }
 
-@media (min-width: 1100px) {
+@media (max-width: 1100px) {
   .user-gallery-header {
     font-size: 4rem;
   }
@@ -188,7 +188,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1100px) {
+@media (max-width: 1100px) {
   .user-gallery-gallery {
     width: 90%;
     -webkit-box-orient: horizontal;
@@ -203,7 +203,7 @@
   padding: 1rem;
 }
 
-@media (min-width: 1100px) {
+@media (max-width: 1100px) {
   .user-gallery-gallery .user-gallery-image {
     height: 30rem;
     width: auto;
@@ -234,7 +234,7 @@
   margin-bottom: 10vh;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
   .header-parent {
     background-size: cover;
   }
@@ -273,8 +273,6 @@
 }
 
 .food {
-  width: 99vw;
-  height: 25vw;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -292,6 +290,13 @@
           justify-content: center;
   margin: 0;
   position: relative;
+}
+
+@media (min-width: 1100px) {
+  .food {
+    width: 99vw;
+    height: 25vw;
+  }
 }
 
 .menu {
