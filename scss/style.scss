@@ -5,9 +5,7 @@
 @import "_secondcontent.scss";
 @import "_thirdcontent.scss";
 @import "_fourthcontent.scss";
-
-@include tablet{}
-@include laptop{}
+@import "_checkbox.scss";
 
 html {
   margin: 0;

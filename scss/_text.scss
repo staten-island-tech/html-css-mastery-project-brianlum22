@@ -72,15 +72,26 @@
 
 .food-title-child {
     font-family: 'Kaushan Script', cursive;
-    font-size: 100px;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+    @include desktop {
+    font-size: 100px;
+    }
+    @include phone {
+    font-size: 3rem;
+    }
 }
 
 .menu-title {
     font-family: 'Spartan', ;
+    color: black;
+    @include desktop {
     font-size: 50px;
-    color: black
+    }
+
+    @include phone {
+    font-size: 1.5rem;
+    }
 }
 
 .our-locations-child {

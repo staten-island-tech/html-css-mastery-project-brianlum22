@@ -29,13 +29,22 @@
   }
   
   .menu {
-    height: 35rem;
     position: relative;
     transition: all 0.3s;
     padding: 2rem;
-    margin-top: 10rem;
-    margin-bottom: 20rem;
     filter: grayscale(50);
+
+    @include desktop {
+      height: 35rem;
+      margin-top: 10rem;
+      margin-bottom: 20rem;
+    }
+
+    @include phone {
+      height: 6rem;
+      margin-top: .5rem;
+      margin-bottom: 4rem;
+    }
   }
   
   .sushi {
@@ -65,19 +74,35 @@
   }
   
   .food-title-parent {
-    margin-top: 15rem;
-    height: 25rem;
+
+    @include desktop {
+      margin-top: 15rem;
+      height: 25rem;
+    }
+
+    @include phone {
+      margin-top: 3rem;
+      height: 5rem;
+    }
   }
   
   .menu-items {
-    height: 35rem;
     position: relative;
-    padding: 18rem;
-    margin-top: 5rem;
+
+    @include desktop {
+      height: 35rem;
+      padding: 18rem;
+      margin-top: 5rem;
+    }
+
+    @include phone {
+      height: 6rem;
+      padding: 2.5rem;
+      margin-top: 1rem;
+    }
   }
   
   .menu-title {
-    height: 20rem;
     background-size: cover;
     background-position: top;
     display: flex;
@@ -86,6 +111,12 @@
     justify-content: space-between;
     margin: 0;
     position: relative;
+    @include desktop {
+      height: 20rem;
+    }
+    @include phone {
+      height: 4rem;
+    }
   }
   
   
