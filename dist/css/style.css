@@ -122,29 +122,73 @@
 
 .our-locations-child {
   font-family: 'Kaushan Script', cursive;
-  font-size: 100px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+}
+
+@media (min-width: 1100px) {
+  .our-locations-child {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .our-locations-child {
+    font-size: 3rem;
+  }
 }
 
 .cityname1 {
   font-family: "Spartan";
-  font-size: 30px;
   color: black;
+}
+
+@media (min-width: 1100px) {
+  .cityname1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cityname1 {
+    font-size: 1rem;
+  }
 }
 
 .reviews-child {
   font-family: 'Kaushan Script', cursive;
-  font-size: 100px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
 }
 
+@media (min-width: 1100px) {
+  .reviews-child {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-child {
+    font-size: 3rem;
+  }
+}
+
 .reviews {
   font-family: "Spartan";
-  font-size: 45px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+}
+
+@media (min-width: 1100px) {
+  .reviews {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews {
+    font-size: 2rem;
+  }
 }
 
 .user-gallery {
@@ -340,31 +384,10 @@
 
 @media (max-width: 600px) {
   .menu {
-    height: 6rem;
-    margin-top: .5rem;
-    margin-bottom: 4rem;
+    height: 8rem;
+    margin-top: .7rem;
+    margin-bottom: 6rem;
   }
-}
-
-.sushi {
-  top: 20rem;
-  left: 0;
-  border-radius: 2;
-  margin: 0;
-}
-
-.udon {
-  top: 20rem;
-  right: -40rem;
-  border-radius: 2;
-  margin: 0;
-}
-
-.sashimi {
-  top: 20rem;
-  right: -40rem;
-  border-radius: 2;
-  margin: 0;
 }
 
 .menu:hover {
@@ -373,20 +396,6 @@
   z-index: 2;
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
-}
-
-@media (min-width: 1100px) {
-  .food-title-parent {
-    margin-top: 15rem;
-    height: 25rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .food-title-parent {
-    margin-top: 3rem;
-    height: 5rem;
-  }
 }
 
 .menu-items {
@@ -491,36 +500,28 @@
 }
 
 .sightsee {
-  height: 35rem;
   position: relative;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   padding: 2rem;
-  margin-top: 10rem;
-  margin-bottom: 20rem;
   -webkit-filter: grayscale(50);
           filter: grayscale(50);
 }
 
-.akihabara {
-  top: 20rem;
-  left: 0;
-  border-radius: 2;
-  margin: 0;
+@media (min-width: 1100px) {
+  .sightsee {
+    height: 35rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+  }
 }
 
-.times_square {
-  top: 20rem;
-  right: -40rem;
-  border-radius: 2;
-  margin: 0;
-}
-
-.shanghai {
-  top: 20rem;
-  right: -40rem;
-  border-radius: 2;
-  margin: 0;
+@media (max-width: 600px) {
+  .sightsee {
+    height: 6rem;
+    margin-top: .5rem;
+    margin-bottom: 4rem;
+  }
 }
 
 .sightsee:hover {
@@ -587,19 +588,37 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 20rem;
   position: relative;
   background: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 1100px) {
+  .reviews {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin: 5rem;
+  }
 }
 
 .whalen-parent {
