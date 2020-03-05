@@ -85,8 +85,8 @@
     top: 6.5rem;
     right: 6.5rem;
     background-image: radial-gradient(
-        rgba(41, 152, 255, 1) ,
-        rgba(40, 180, 133, 1) 
+        rgb(255, 153, 0) ,
+        rgb(255, 218, 115) 
         );
     z-index: 1000;
     transition: transform .8s;
@@ -107,7 +107,7 @@
 
 .navigation_link:hover, .navigation_link:active {
     background-position: 100%;
-    color: rgba(41, 152, 255, 1);
+    color: rgb(216, 171, 22);
     transform: translateX(1rem);
 }
 

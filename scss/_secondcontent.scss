@@ -1,6 +1,6 @@
 .second-page{
-  width: 99vw;
-  height: 99vh;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-position: top;
   display: flex;
@@ -21,19 +21,16 @@
     justify-content: center;
     margin: 0;
     position: relative;
-
-    @include desktop {
     width: 99vw;
     height: 25vw;
-    }
   }
   
   .menu {
     position: relative;
-    transition: all 0.3s;
     padding: 2rem;
+    transition: all 0.3s;
     filter: grayscale(50);
-
+    
     @include desktop {
       height: 35rem;
       margin-top: 10rem;
@@ -41,9 +38,9 @@
     }
 
     @include phone {
-      height: 8rem;
-      margin-top: .7rem;
-      margin-bottom: 6rem;
+      height: 6rem;
+      margin-top: .5rem;
+      margin-bottom: 4rem;
     }
   }
   

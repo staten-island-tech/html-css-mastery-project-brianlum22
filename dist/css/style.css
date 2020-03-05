@@ -276,9 +276,9 @@
   }
 }
 
-.header-parent {
-  width: 99vw;
-  height: 99vh;
+#first-content {
+  width: 100vw;
+  height: 100vh;
   position: relative;
   background-size: cover;
   background-position: top;
@@ -301,13 +301,13 @@
 }
 
 @media (max-width: 900px) {
-  .header-parent {
+  #first-content {
     background-size: cover;
   }
 }
 
 @media (min-width: 1100px) {
-  .header-parent {
+  #first-content {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -316,8 +316,8 @@
 }
 
 .second-page {
-  width: 99vw;
-  height: 99vh;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -356,20 +356,15 @@
           justify-content: center;
   margin: 0;
   position: relative;
-}
-
-@media (min-width: 1100px) {
-  .food {
-    width: 99vw;
-    height: 25vw;
-  }
+  width: 99vw;
+  height: 25vw;
 }
 
 .menu {
   position: relative;
+  padding: 2rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  padding: 2rem;
   -webkit-filter: grayscale(50);
           filter: grayscale(50);
 }
@@ -384,9 +379,9 @@
 
 @media (max-width: 600px) {
   .menu {
-    height: 8rem;
-    margin-top: .7rem;
-    margin-bottom: 6rem;
+    height: 6rem;
+    margin-top: .5rem;
+    margin-bottom: 4rem;
   }
 }
 
@@ -451,8 +446,8 @@
 }
 
 .third-page {
-  width: 99vw;
-  height: 99vh;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -555,8 +550,8 @@
 }
 
 #fourth-content {
-  width: 99vw;
-  height: 99vh;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -729,7 +724,7 @@
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#2998ff, #28b485);
+  background-image: radial-gradient(#ff9900, #ffda73);
   z-index: 1000;
   -webkit-transition: -webkit-transform .8s;
   transition: -webkit-transform .8s;
@@ -753,7 +748,7 @@
 
 .navigation_link:hover, .navigation_link:active {
   background-position: 100%;
-  color: #2998ff;
+  color: #d8ab16;
   -webkit-transform: translateX(1rem);
           transform: translateX(1rem);
 }
