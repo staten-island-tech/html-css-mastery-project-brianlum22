@@ -12,6 +12,7 @@
     background-image: url(../media/page1.jpg);
     margin-bottom: 10vh;
     
+    
     @include tablet {
       background-size: cover;
     }

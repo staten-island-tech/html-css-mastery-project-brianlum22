@@ -75,6 +75,8 @@
     z-index: 1500;
     width: 100%;
     transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    visibility: hidden;
+    content: none;
 }
 
 .navigation_background {
@@ -118,4 +120,10 @@
 .navigation_checkbox:checked~.navigation_nav {
     opacity: 1;
     width: 100%;
+    display: block;
+    visibility: visible;
 }
+
+
+
+

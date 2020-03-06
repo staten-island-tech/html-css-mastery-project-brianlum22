@@ -10,6 +10,7 @@
   margin: 0;
   background-image: url(../media/restaurant.jpg);
   margin-bottom: 10vh;
+  
 }
   
   .food {
@@ -25,30 +26,30 @@
     height: 25vw;
   }
   
-  .menu {
-    position: relative;
-    padding: 2rem;
-    transition: all 0.3s;
-    filter: grayscale(50);
+.menu {
+  position: relative;
+  padding: 2rem;
+  transition: .3s;
+  filter: grayscale(50);
     
-    @include desktop {
-      height: 35rem;
-      margin-top: 10rem;
-      margin-bottom: 20rem;
-    }
+  @include desktop {
+    height: 35rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+  }
 
-    @include phone {
-      height: 6rem;
-      margin-top: .5rem;
-      margin-bottom: 4rem;
-    }
+  @include phone {
+    height: 6rem;
+    margin-top: .5rem;
+    margin-bottom: 4rem;
   }
+}
   
-  .menu:hover {
-    transform: scale(1.1);
-    z-index: 2;
-    filter: grayscale(0);
-  }
+.menu:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  filter: grayscale(0);
+}
   
   
   .menu-items {
