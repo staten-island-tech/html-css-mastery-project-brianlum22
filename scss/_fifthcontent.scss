@@ -11,7 +11,7 @@
   background-image: url(../media/final.jpg);
 }
 
-.icon {
+.socials-parent {
   width: 99vw;
   height: 50vw;
   background-size: cover;
@@ -24,7 +24,7 @@
   position: relative;
 }
 
-.socials-parent {
+.socials-child {
   position: relative;
   padding: 2rem;
   @include desktop {

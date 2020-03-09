@@ -674,7 +674,7 @@
   background-image: url(../media/final.jpg);
 }
 
-.icon {
+.socials-parent {
   width: 99vw;
   height: 50vw;
   background-size: cover;
@@ -696,13 +696,13 @@
   position: relative;
 }
 
-.socials-parent {
+.socials-child {
   position: relative;
   padding: 2rem;
 }
 
 @media (min-width: 1100px) {
-  .socials-parent {
+  .socials-child {
     height: 35rem;
     margin-top: 10rem;
     margin-bottom: 20rem;
@@ -710,7 +710,7 @@
 }
 
 @media (max-width: 600px) {
-  .socials-parent {
+  .socials-child {
     height: 9rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
