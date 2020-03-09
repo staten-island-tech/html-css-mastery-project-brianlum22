@@ -1,0 +1,26 @@
+#fifth-content{ 
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(218, 171, 156);
+}
+
+.instagram {
+    @include desktop {
+        height: 35rem;
+        margin-top: 10rem;
+        margin-bottom: 20rem;
+      }
+    
+      @include phone {
+        height: 6rem;
+        margin-top: .5rem;
+        margin-bottom: 4rem;
+      }
+}
