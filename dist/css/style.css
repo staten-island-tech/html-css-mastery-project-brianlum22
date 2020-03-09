@@ -191,6 +191,24 @@
   }
 }
 
+.credits-title-child {
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+}
+
+@media (min-width: 1100px) {
+  .credits-title-child {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .credits-title-child {
+    font-size: 3rem;
+  }
+}
+
 .user-gallery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -653,11 +671,38 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  background-color: #daab9c;
+  background-image: url(../media/final.jpg);
+}
+
+.icon {
+  width: 99vw;
+  height: 50vw;
+  background-size: cover;
+  background-position: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  position: relative;
+}
+
+.socials-parent {
+  position: relative;
+  padding: 2rem;
 }
 
 @media (min-width: 1100px) {
-  .instagram {
+  .socials-parent {
     height: 35rem;
     margin-top: 10rem;
     margin-bottom: 20rem;
@@ -665,9 +710,9 @@
 }
 
 @media (max-width: 600px) {
-  .instagram {
-    height: 6rem;
-    margin-top: .5rem;
+  .socials-parent {
+    height: 9rem;
+    margin-top: 3rem;
     margin-bottom: 4rem;
   }
 }
@@ -746,7 +791,6 @@
 }
 
 .navigation_nav {
-  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -755,6 +799,7 @@
   -webkit-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   content: block;
+  height: 100vh;
 }
 
 .navigation_background {

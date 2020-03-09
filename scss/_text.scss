@@ -140,3 +140,15 @@
     font-size: 2rem;
     }
 }
+
+.credits-title-child {
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+    @include desktop {
+    font-size: 100px;
+    }
+    @include phone {
+    font-size: 3rem;
+    }
+}

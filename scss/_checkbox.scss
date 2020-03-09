@@ -68,7 +68,6 @@
 }
 
 .navigation_nav{
-    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -76,6 +75,7 @@
     width: 100%;
     transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     content: block;
+    height: 100vh;
 }
 
 .navigation_background {
