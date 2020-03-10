@@ -45,6 +45,14 @@
     transition: all .2s;
 }
 
+.navigation_item::before {
+    content: none;
+}
+
+.navigation_item::after {
+    content: block;
+}
+
 .navigation_button:hover .navigation_icon::before{
     top: -1rem;
 }
