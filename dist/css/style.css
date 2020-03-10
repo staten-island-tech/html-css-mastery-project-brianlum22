@@ -246,8 +246,8 @@
 }
 
 .socials-me {
-  font-family: 'Bitter', serif;
-  color: #ff6600;
+  font-family: "Spartan";
+  color: white;
 }
 
 @media (min-width: 1100px) {
@@ -742,7 +742,7 @@
 
 .socials-parent {
   width: 99vw;
-  height: 50vw;
+  height: 30vw;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
@@ -760,6 +760,7 @@
           justify-content: center;
   margin: 0;
   position: relative;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .final-parent {
