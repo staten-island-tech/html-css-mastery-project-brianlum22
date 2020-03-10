@@ -10,10 +10,16 @@
     position: fixed;
     top: 6rem;
     right: 6rem;
-    z-index: 2000;
+    z-index: 10000;
     box-shadow: 0 1rem 3rem rgba (0,0,0,0.1);
     text-align: center;
     cursor: pointer;
+}
+
+*, *::before, *::after {
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
 }
 
 .navigation_icon {
@@ -27,13 +33,13 @@
 
 .navigation_icon::before {
     position: absolute;
-    top: -.8rem;
+    top: -1rem;
     left: 0;
 }
 
 .navigation_icon::after{
     position: absolute;
-    top: .8rem;
+    top: 1rem;
     left: 0;
 }
 
@@ -79,11 +85,20 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1500;
-    width: 100%;
-    transition: all .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    content: block;
+    z-index: -10;
+    opacity: 0;
+    width: 0%;
+    transition: all .8s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     height: 100vh;
+}
+
+nav {
+    display: block;
+}
+
+div {
+    display: block;
 }
 
 .navigation_background {
@@ -93,12 +108,9 @@
     position: fixed;
     top: 6.5rem;
     right: 6.5rem;
-    background-image: radial-gradient(
-        rgb(255, 153, 0) ,
-        rgb(255, 218, 115) 
-        );
-    z-index: 1000;
-    transition: transform .8s;
+    background-image: radial-gradient(rgb(255, 153, 0) ,rgb(255, 218, 115) );
+    z-index: 30;
+    transition: 0.8s;
 }
 
 .navigation_link, .naviagation_link:link, .navigation_link:visited {
@@ -125,11 +137,33 @@
 }
 
 .navigation_checkbox:checked~.navigation_nav {
+    display: initial;
     opacity: 1;
     width: 100%;
-    display: block;
-    visibility: visible;
+    z-index: 200;
 }
+
+.navigation_item {
+    font-family: 'Spartan',;
+    font-size: 5rem;
+    margin: 1rem;
+}
+
+i {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.navigation_list{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    width: 100%;
+}
+
+
 
 
 
