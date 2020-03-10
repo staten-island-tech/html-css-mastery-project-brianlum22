@@ -11,17 +11,10 @@
     margin: 0;
     background-image: url(../media/page1.jpg);
     margin-bottom: 10vh;
-    
-    
-    @include tablet {
-      background-size: cover;
-    }
-    @include desktop {
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
   

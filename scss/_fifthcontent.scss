@@ -24,18 +24,3 @@
   position: relative;
 }
 
-.socials-child {
-  position: relative;
-  padding: 2rem;
-  @include desktop {
-    height: 35rem;
-    margin-top: 10rem;
-    margin-bottom: 20rem;
-  }
-
-  @include phone {
-    height: 9rem;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-}

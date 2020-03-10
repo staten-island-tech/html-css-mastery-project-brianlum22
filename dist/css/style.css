@@ -316,21 +316,10 @@
   margin: 0;
   background-image: url(../media/page1.jpg);
   margin-bottom: 10vh;
-}
-
-@media (max-width: 900px) {
-  #first-content {
-    background-size: cover;
-  }
-}
-
-@media (min-width: 1100px) {
-  #first-content {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .second-page {
@@ -858,6 +847,9 @@ html {
           box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   background-color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   /* @include desktop {
   font-size: 70%;
   } */
