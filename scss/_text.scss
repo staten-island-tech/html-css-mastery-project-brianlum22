@@ -199,3 +199,14 @@
     font-size: .75rem;
     }
 }
+
+.navigation_list {
+    font-family: 'Spartan',;
+    color: white;
+    @include desktop {
+    font-size: 45px;
+    }
+    @include phone {
+    font-size: 2rem;
+    }
+}
