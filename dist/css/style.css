@@ -404,10 +404,15 @@
   margin: 0;
   background-image: url(../media/page1.jpg);
   margin-bottom: 10vh;
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 1100px) {
+  #first-content {
+    background-attachment: fixed;
+  }
 }
 
 .second-page {
@@ -569,17 +574,11 @@
 }
 
 .locations {
-  width: 99vw;
-  height: 25vw;
   background-size: cover;
   background-position: top;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -590,9 +589,30 @@
   position: relative;
 }
 
+@media (min-width: 1100px) {
+  .locations {
+    width: 99vw;
+    height: 25vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .locations {
+    width: 25vw;
+    height: 80vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .sightsee {
   position: relative;
-  padding: 2rem;
   -webkit-transition: .3s;
   transition: .3s;
   -webkit-filter: grayscale(50);
@@ -604,15 +624,15 @@
     height: 35rem;
     margin-top: 10rem;
     margin-bottom: 20rem;
+    padding: 2rem;
   }
 }
 
 @media (max-width: 600px) {
   .sightsee {
-    height: 9rem;
-    width: 12rem;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    height: 12rem;
+    width: 15rem;
+    padding: 1rem;
   }
 }
 

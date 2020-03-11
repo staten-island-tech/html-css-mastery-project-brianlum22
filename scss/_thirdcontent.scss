@@ -18,12 +18,19 @@
 }
 
 .locations {
-  width: 99vw;
-  height: 25vw;
+  @include desktop {
+    width: 99vw;
+    height: 25vw;
+    flex-direction: row;
+  }
+  @include phone {
+    width: 25vw;
+    height: 80vw;
+    flex-direction: column;
+  }
   background-size: cover;
   background-position: top;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0;
@@ -32,7 +39,6 @@
 
 .sightsee {
   position: relative;
-  padding: 2rem;
   transition: .3s;
   filter: grayscale(50);
     
@@ -40,13 +46,13 @@
     height: 35rem;
     margin-top: 10rem;
     margin-bottom: 20rem;
+    padding: 2rem;
   }
 
   @include phone {
-    height: 9rem;
-    width: 12rem;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    height: 12rem;
+    width: 15rem;
+    padding: 1rem;
   }
 }
 
