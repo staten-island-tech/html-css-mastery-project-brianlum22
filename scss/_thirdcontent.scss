@@ -1,0 +1,87 @@
+.third-page{
+  width: 99vw;
+  height: 99vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: rgb(218, 171, 156);
+  margin-bottom: 10vh;
+}
+
+.our-locations-parent{
+  height: 15rem;
+}
+
+.locations {
+  width: 99vw;
+  height: 25vw;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+}
+
+.sightsee {
+  height: 35rem;
+  position: relative;
+  transition: all 0.3s;
+  padding: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+  filter: grayscale(50);
+}
+
+.akihabara {
+  top: 20rem;
+  left: 0;
+  border-radius: 2;
+  margin: 0;
+}
+
+.times_square {
+  top: 20rem;
+  right: -40rem;
+  border-radius: 2;
+  margin: 0;
+}
+
+.shanghai {
+  top: 20rem;
+  right: -40rem;
+  border-radius: 2;
+  margin: 0;
+}
+
+.sightsee:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  filter: grayscale(0);
+}
+
+.location-title {
+  height: 10rem;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+}
+
+
+
+
+
+
+

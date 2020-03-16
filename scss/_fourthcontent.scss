@@ -1,0 +1,50 @@
+#fourth-content{
+  width: 99vw;
+  height: 99vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-image: url(../media/reviewing.jpg);
+  
+}
+
+.reviews-parent {
+  height: 15rem;
+}
+
+.reviews {
+  width: 80vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20rem;
+  position: relative;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.whalen-parent {
+  margin-right: 10rem;
+  height: 25rem;
+  z-index: 2;
+}
+
+.caroline-parent {
+  margin-left: 10rem;
+  height: 25rem;
+  z-index: 2;
+}
+
+.kenny-parent {
+  height: 25rem;
+  z-index: 2;
+}
+
+

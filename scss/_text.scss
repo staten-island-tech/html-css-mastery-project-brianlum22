@@ -1,0 +1,112 @@
+@import "_variables.scss";
+
+.greeting{
+    font-family: 'Kaushan Script', cursive;
+    color: white;    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-transform: uppercase;
+
+    @include phone{
+        font-size: 50vw;
+    }
+
+    @include desktop {
+        font-size: 130px;
+    }
+}
+
+.motto{
+    font-family: 'Spartan', ;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    @include phone{
+        font-size: 3vh;
+    }
+
+    @include desktop {
+        font-size: 50px;
+    }
+}
+
+.motto2{
+    font-family: 'Spartan', ;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    @include phone{
+        font-size: 3vh;
+    }
+
+    @include desktop {
+        font-size: 50px;
+    }
+}
+
+.name{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+    @include phone{
+        font-size: 3vh;
+    }
+
+    @include desktop {
+        font-size: 25px;
+    }
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 75px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.statement {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.food-title-child {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+}
+
+.menu-title {
+    font-family: 'Spartan', ;
+    font-size: 50px;
+    color: black
+}
+
+.our-locations-child {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+}
+
+.cityname1 {
+    font-family: 'Spartan', ;
+    font-size: 30px;
+    color: black;
+}
+
+.reviews-child {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+}
+
+.reviews {
+    font-family: 'Spartan', ;
+    font-size: 45px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px;
+}

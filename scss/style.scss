@@ -1,6 +1,10 @@
-@import "_text1.scss";
-@import "_animations.scss";
-@import "media_queries.scss";
+@import "_text.scss";
+@import "_usergallery.scss";
+@import "_variables.scss";
+@import "_firstcontent.scss";
+@import "_secondcontent.scss";
+@import "_thirdcontent.scss";
+@import "_fourthcontent.scss";
 
 @include tablet{}
 @include laptop{}
@@ -17,7 +21,30 @@ html {
   } */
 }
 
+<<<<<<< HEAD
 .header-parent{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-image: url(../media/page1.jpg);
+}
+=======
+
+
+
+
+
+
+>>>>>>> 6a4fc072ca76547bc2dc35578d78942288129a65
+
+.second-page-parent{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -28,7 +55,7 @@ html {
   align-items:center;
   justify-content: center;
   margin: 0;
-  background-image: url(../media/page1.jpg);
+  background-image: url(..media/chef.jpg);
 }
 
 
