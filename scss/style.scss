@@ -5,9 +5,8 @@
 @import "_secondcontent.scss";
 @import "_thirdcontent.scss";
 @import "_fourthcontent.scss";
-
-@include tablet{}
-@include laptop{}
+@import "_fifthcontent.scss";
+@import "_checkbox.scss";
 
 html {
   margin: 0;
@@ -16,47 +15,12 @@ html {
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   background-color: black;
+  width: fit-content;
   /* @include desktop {
   font-size: 70%;
   } */
 }
 
-<<<<<<< HEAD
-.header-parent{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: top;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  background-image: url(../media/page1.jpg);
-}
-=======
-
-
-
-
-
-
->>>>>>> 6a4fc072ca76547bc2dc35578d78942288129a65
-
-.second-page-parent{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: top;
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content: center;
-  margin: 0;
-  background-image: url(..media/chef.jpg);
-}
 
 
 

@@ -1,0 +1,39 @@
+#fifth-content{ 
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-image: url(../media/final.jpg);
+}
+
+.credits-title-parent {
+  height: 15vw;
+}
+
+.socials-parent {
+  width: 99vw;
+  height: 30vw;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.final-parent {
+  height: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+

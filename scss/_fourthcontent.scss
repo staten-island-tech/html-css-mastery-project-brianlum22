@@ -1,6 +1,6 @@
 #fourth-content{
-  width: 99vw;
-  height: 99vh;
+  width: 100vw;
+  height: 100vh;
   background-size: cover;
   background-position: top;
   display: flex;
@@ -9,11 +9,11 @@
   justify-content: center;
   margin: 0;
   background-image: url(../media/reviewing.jpg);
-  
+  margin-bottom: 10vh;
 }
 
 .reviews-parent {
-  height: 15rem;
+  height: 10rem;
 }
 
 .reviews {
@@ -22,12 +22,19 @@
   background-size: cover;
   background-position: top;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  margin: 20rem;
   position: relative;
   background: rgba(0, 0, 0, 0.4);
+  @include desktop {
+  flex-direction: row;
+  justify-content: center;
+  margin: 20rem;
+  }
+  @include phone {
+  flex-direction: column;
+  justify-content: left;
+  margin: 5rem;
+  }
 }
 
 .whalen-parent {

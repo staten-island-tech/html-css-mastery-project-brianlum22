@@ -1,4 +1,4 @@
-<body lang="en">
+<div/div lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
     
 </head>
 <body>
-    <header>
+    <header id="first-content">
         <div class="header-parent">
             <div class="header-child"></div>
                 <div class="greeting">Welcome to Tetsutetsu:</div>
@@ -19,16 +20,97 @@
                 <div class="name">Presented by Brian Lum</div>
         </div>
     </header>
-</body>
 
-<section>
-    <div class="second-page-parent">
-        <div class="second-page-child"></div>
-            <div class="introduction">Once in a while when I wake up. I find myself crying. The dream I must have had I can never recall. But... But... 
-            the sensation that I've lost something lingers for a long time after I wake up. I'm always searching for something, for someone. This feeling has possessed me
-            I think from that day... That day when the stars came falling. It was almost as if... as if a scene from a dream. Nothing more, nothing less than a beautiful view.
-            </div>            
+    <section id="second-content">
+        <div class="second-page">
+            <div class="food-title-parent">
+                <div class="food-title-child">Check out our glorious food</div>
+            </div>
+
+            <div class="food">
+                <img src="media/sushi.jpg" class="menu">
+                <img src="media/udon.jpg" class="menu">
+                <img src="media/sashimi.jpg" class="menu">
+            </div>
+
+            <div class="menu-title">
+                <div id="sushi-title" class="menu-items">SUSHI</div>
+                <div id="divider" class="menu-items">-</div>
+                <div id="udon-title" class="menu-items">UDON</div>
+                <div id="divider2" class="menu-items">-</div>
+                <div id="sashimi-title" class="menu-items">SASHIMI</div>
+            </div>
         </div>
-    </div>
-<section>  
+    </section>
 
+    <section id="third-content">
+        <div class="third-page">
+            <div class="our-locations-parent">
+                <div class="our-locations-child">Come to our many locations</div>
+            </div>
+
+            <div class="locations">
+                <img src="media/akihabara.jpg" class="sightsee">
+                <img src="media/times_square.jpg" class="sightsee">
+                <img src="media/shanghai.jpg" class="sightsee">
+            </div>
+
+            <div class="location-title">
+                <div id="encouraging-title" class="cityname1">We have locations in Akihabara, Times Square, and Shanghai. Note: our Shanghai location is currently quarantined because of the coronavirus outbreak.</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="fourth-content">
+        <div class="reviews-parent">
+            <div class="reviews-child">Check out these rave reviews!</div>
+        </div>
+        <div class="reviews">
+            <div class="whalen-parent">
+                <div class="whalen-child" id="rave">I would give this place an A+! - Michael Whalen</div>
+            </div>
+
+            <div class="kenny-parent">
+                <div class="kenny-child" id="rave">Yo, this restaraunt is highkey good stuff. Like, if you don't visit this when you come to Shanghai, you missin' out. - Kenny Tung</div>
+            </div>
+
+            <div class="caroline-parent">
+                <div class="caroline-child" id="rave">I love this place so much!!! Highly recommend! - Caroline Seifan</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fifth-content">
+        <div class="credits-title-parent">
+            <div class="credits-title-child">THANK YOU!</div>
+        </div>
+        <div class="socials-parent">
+            <div class="socials-child">We hope you enjoy your time at Tetsutetsu restaraunts!</div>
+            <div class="socials-locations">Times Square, New York, United States - Akihabara, Tokyo, Japan - Shanghai, China</div>
+            <div class="socials-me">Presented by Brian Lum</div>
+        </div>
+        <div class="final-parent">
+            <a href="#first-content" class="final-child">Back to Top</a>
+        </div>
+    </section>
+
+    <div class="navigation">
+        <input type="checkbox" class="navigation_checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation_button">
+        <span class="navigation_icon">
+        </span>
+        </label>
+        <div class="navigation_background" id="navigationbackground">&nbsp;</div>
+        <nav class="navigation_nav">
+            <ul class="navigation_list">
+                <li class="navigation_item"><a href="#first-content" class="navigation_link">Greetings</a></li>
+                <li class="navigation_item"><a href="#second-content" class="navigation_link">Our Food</a></li>
+                <li class="navigation_item"><a href="#third-content" class="navigation_link">Our Locations</a></li>
+                <li class="navigation_item"><a href="#fourth-content" class="navigation_link">Outstanding Reviews</a></li>
+                <li class="navigation_item"><a href="#fifth-content" class="navigation_link">Thank You</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</head>
