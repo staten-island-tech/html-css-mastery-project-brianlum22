@@ -62,7 +62,8 @@
 
 .menu-title {
     font-family: 'Spartan', ;
-    color: black;
+    color: rgb(219, 182, 127);
+    background-color: black;
     @include desktop {
     font-size: 50px;
     }

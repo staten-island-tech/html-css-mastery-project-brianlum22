@@ -87,7 +87,7 @@
     @include desktop {
       height: 1rem;
       padding: 8rem;
-      margin-top: 3rem;
+      margin-bottom: 4rem;
     }
     @include phone {
       height: 3rem;
@@ -105,15 +105,13 @@
     margin: 0;
     position: relative;
     @include desktop {
-      height: 3rem;
+      height: 10rem;
       flex-direction: row;
     }
     @include phone {
       margin-top: 5rem;
-      width: 20rem;
+      width: 30rem;
       height: 3rem;
-      color: blanchedalmond;
     }
   }
-  
-  
+
