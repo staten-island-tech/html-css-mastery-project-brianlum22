@@ -451,7 +451,7 @@
           justify-content: center;
   margin: 0;
   background-image: url(../media/page1.jpg);
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -460,13 +460,6 @@
 @media (min-width: 1100px) {
   #first-content {
     background-attachment: fixed;
-  }
-}
-
-@media (max-width: 600px) {
-  #first-content {
-    width: 100vw;
-    height: 100vh;
   }
 }
 
@@ -490,7 +483,7 @@
           justify-content: center;
   margin: 0;
   background-image: url(../media/restaurant.jpg);
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 @media (min-width: 600px) {
@@ -676,7 +669,7 @@
           justify-content: center;
   margin: 0;
   background-color: #daab9c;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 @media (min-width: 600px) {
@@ -831,7 +824,7 @@
           justify-content: center;
   margin: 0;
   background-image: url(../media/reviewing.jpg);
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 @media (min-width: 600px) {

@@ -10,17 +10,13 @@
     justify-content: center;
     margin: 0;
     background-image: url(../media/page1.jpg);
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     @include desktop {
     background-attachment: fixed;
     }
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    @include phone {
-    width: 100vw;
-    height: 100vh;
-    }
 }
 
   
